@@ -90,7 +90,7 @@ body{
     color: hsl(0, 0%, 90%);
     font-size: 2em;
     text-decoration: none;
-    border: 1px solid beige;
+    border: 1px solid hsl(0, 0%, 90%);
     padding: 1%;
 }
 
