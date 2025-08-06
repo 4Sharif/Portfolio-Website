@@ -48,7 +48,7 @@ body{
 }
 
 .intro-and-headshot{ 
-    padding-top: 6em; 
+    padding-top: 9em; 
     width: 100%;
     display: flex; 
     justify-content: space-between;
@@ -82,19 +82,21 @@ body{
     height: 15%;
     padding: 1em;
     text-align: center;
-    margin: 8em auto;
+    margin: 6em auto;
     color: hsl(0, 0%, 90%); 
 } 
 
 .header-section .resume a{
     color: hsl(0, 0%, 90%);
-    font-size: 2em;
+    font-size: 1.7em;
     text-decoration: none;
     border: 1px solid hsl(0, 0%, 90%);
+    border-radius: .25em;
     padding: 1%;
 }
 
 .header-section .resume a:hover{
     color: hsl(0, 0%, 12%);
     background-color: hsl(0, 0%, 90%);
+    transition: ease-in 0.18s;
 }
