@@ -100,3 +100,16 @@ body{
     background-color: hsl(0, 0%, 90%);
     transition: ease-in 0.18s;
 }
+
+.skill-section{
+    width: 100%;
+    height: 100vh;
+    padding: 2em;
+}
+
+.skill-section h2{
+    color: hsl(0, 0%, 12%); 
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
