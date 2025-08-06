@@ -120,3 +120,19 @@ body{
     font-weight: bold;
     font-size: 2em;
 }
+
+.skill-section .skill-boxes{ 
+    padding: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 2em;
+    width: 100%;  
+}
+
+.skill-boxes .skill-box{
+    margin: 0 auto;
+    width: 20em;
+    height: 22em;
+    background-color: var(--navy);
+    border-radius: 1.2em; 
+}
