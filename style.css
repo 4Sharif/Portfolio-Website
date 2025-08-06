@@ -6,15 +6,22 @@
 }
 
 body{
-    background-color: hsl(0, 0%, 90%);
+    background-color: var(--whitesmoke);
+}
+
+:root{
+    /* COLORS */
+    --dark-grey: hsl(0, 0%, 12%);
+    --whitesmoke: hsl(0, 0%, 90%);
+    --navy: hsl(255, 81%, 29%);
 }
 
 .header-section{ 
     width: 100%;
     height: 100vh;
     padding: 2em; /* Section padding */
-    background-color: hsl(255, 81%, 29%);
-    color: hsl(0, 0%, 90%);
+    background-color: var(--navy);
+    color: var(--whitesmoke);
 } 
 
 .header-section h1{
@@ -33,7 +40,7 @@ body{
 
 .header-section li a{
     text-decoration: none;
-    color: hsl(0, 0%, 90%);
+    color: var(--whitesmoke);
     font-size: 1.2em;
 }
 
@@ -83,21 +90,21 @@ body{
     padding: 1em;
     text-align: center;
     margin: 6em auto;
-    color: hsl(0, 0%, 90%); 
+    color: var(--whitesmoke); 
 } 
 
 .header-section .resume a{
-    color: hsl(0, 0%, 90%);
+    color: var(--whitesmoke);
     font-size: 1.7em;
     text-decoration: none;
-    border: 1px solid hsl(0, 0%, 90%);
+    border: 1px solid var(--whitesmoke);
     border-radius: .25em;
     padding: 1%;
 }
 
 .header-section .resume a:hover{
-    color: hsl(0, 0%, 12%);
-    background-color: hsl(0, 0%, 90%);
+    color: var(--dark-grey);
+    background-color: var(--whitesmoke);
     transition: ease-in 0.18s;
 }
 
@@ -108,7 +115,7 @@ body{
 }
 
 .skill-section h2{
-    color: hsl(0, 0%, 12%); 
+    color: var(--dark-grey); 
     text-align: center;
     font-weight: bold;
     font-size: 2em;

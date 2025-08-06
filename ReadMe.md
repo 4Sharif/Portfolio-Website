@@ -9,7 +9,7 @@ Welcome to my **Portfolio Website**, a personal site built to showcase my skills
 | #   | Page       | Content                                                                                                                                              |
 |-----|------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | Hero       | An introduction with my name, brief bio, and my image. Includes a link to my resume.                                 |
-| 2   | Skills     | Categorized skills section using card-style layout. Some skills include programming languages, AI tools, and soft skills     |
+| 2   | Skills     | Categorized skills section using card-style layout. Some skills include programming languages, AI tools, and soft skills.     |
 | 3   | Projects   | Project cards featuring the name, tech stack, description, and a GitHub link. Includes left/right navigation arrows for browsing projects. |
 | 4   | Coursework | Overview of key academic courses with a description of structure and technical focus.                      |
 | 5   | About      | Discussing my accomplishments and future goals             |
