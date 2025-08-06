@@ -131,8 +131,21 @@ body{
 
 .skill-boxes .skill-box{
     margin: 0 auto;
-    width: 20em;
-    height: 22em;
+    padding: 2em;
+    width: 20em; 
     background-color: var(--navy);
     border-radius: 1.2em; 
+    color: var(--whitesmoke); 
+}
+
+.skill-boxes .skill-box h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.skill-boxes .skill-box ul{  
+    display: flex;
+    flex-direction: column; 
+    gap: .5em;
+    padding: 1.5em;
 }
