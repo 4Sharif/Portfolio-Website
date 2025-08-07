@@ -119,7 +119,33 @@
         </div>
     </section>
     <section id="projects" class="project-section">
-
+        <h2>Projects</h2>
+        <div class="filters">
+            <select name="type" id="type-select">
+                <option value="" selected>Type</option>
+                <option value="website">Website</option>
+                <option value="webapp">Web App</option>
+                <option value="mobileapp">Mobile App</option>
+                <option value="game">Game</option>
+                <option value="cloud">Cloud</option>
+                <option value="Data">Data</option>
+            </select>
+            <select name="status" id="status-select">
+                <option value="" selected>Status</option>
+                <option value="complete">Completed</option>
+                <option value="inprogress">In-Progress</option>
+                <option value="future">Future</option> 
+            </select>
+            <select name="sort" id="sort-select">
+                <option value="" selected>Sort-By</option>
+                <option value="default">Default</option> 
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+            </select>
+        </div>
+        <div class="project-box">
+            <h3>Context</h3>
+        </div>
     </section>
 </body>
 </html>
