@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my **Portfolio Website**, a personal site built to showcase my skills, projects, coursework, and background. This site is organized into clearly defined sections that highlight what I’ve learned and created as a computer scientist. It is designed with **HTML** and **CSS** and structured for easy navigation.
+Welcome to my **Portfolio Website**, a personal site built to showcase my skills, projects, coursework, and background. This site is organized into clearly defined sections that highlight what I’ve learned and created as a computer scientist. It is designed with **HTML**, **CSS**, and **JavaScript** for structure and easy navigation.
 
 ---
 

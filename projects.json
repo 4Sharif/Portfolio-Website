@@ -4,16 +4,16 @@
         "type": "app",
         "status": "inprogress",
         "date": "2025-03",
+        "tech": ["JavaScript", "React", "Firebase"],
         "description": "A collaborative code editor with real-time features.",
-        "link": "https://github.com/4Sharif/Context",
-        "tech": ["JavaScript", "React", "Firebase"]
+        "link": "https://github.com/4Sharif/Context"
     },
     {
         "name": "NBA PER Prediction Model",
         "type": "data",
         "status": "inprogress",
         "date": "2024-10",
-        "tech": ["Python", "Firebase", "Tailwind"],
+        "tech": ["Python", "Excel", "Matplot"],
         "description": "A collaborative code editor with real-time features.",
         "link": "https://github.com/4Sharif/Context"
     },
@@ -22,7 +22,16 @@
         "type": "app",
         "status": "complete",
         "date": "2024-11",
-        "tech": ["React", "Firebase", "Tailwind"],
+        "tech": ["Java", "Java Swing"],
+        "description": "A collaborative code editor with real-time features.",
+        "link": "https://github.com/4Sharif/Context"
+    },
+    {
+        "name": "Garden By Deka",
+        "type": "website",
+        "status": "complete",
+        "date": "2025-07",
+        "tech": ["HTML", "CSS", "JavaScript"],
         "description": "A collaborative code editor with real-time features.",
         "link": "https://github.com/4Sharif/Context"
     }

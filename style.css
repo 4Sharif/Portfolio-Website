@@ -187,11 +187,16 @@ body{
     border: 2px solid var(--whitesmoke);
     padding: 2em;
     width: 100%;
-    height: 80%;
+    height: 80%; 
 }
 
 .project-section .project-box h3{
     text-align: center;
     font-weight: bold;
     font-size: 1.35em;
+}
+
+.project-box .project-box-flex{
+    border: 2px solid snow;
+    display: flex;
 }
