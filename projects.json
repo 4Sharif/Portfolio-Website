@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Context",
+        "type": "app",
+        "status": "inprogress",
+        "date": "2025-03",
+        "description": "A collaborative code editor with real-time features.",
+        "link": "https://github.com/4Sharif/Context",
+        "tech": ["JavaScript", "React", "Firebase"]
+    },
+    {
+        "name": "NBA PER Prediction Model",
+        "type": "data",
+        "status": "inprogress",
+        "date": "2024-10",
+        "tech": ["Python", "Firebase", "Tailwind"],
+        "description": "A collaborative code editor with real-time features.",
+        "link": "https://github.com/4Sharif/Context"
+    },
+    {
+        "name": "Digital Manager",
+        "type": "app",
+        "status": "complete",
+        "date": "2024-11",
+        "tech": ["React", "Firebase", "Tailwind"],
+        "description": "A collaborative code editor with real-time features.",
+        "link": "https://github.com/4Sharif/Context"
+    }
+]
