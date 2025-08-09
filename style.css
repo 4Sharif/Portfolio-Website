@@ -5,6 +5,15 @@
     font-family: "Balsamiq Sans", sans-serif;
 }
 
+html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: var(--whitesmoke);
 }
@@ -327,4 +336,52 @@ body{
 .course-container p{
     font-size: 1.2em;
     padding-top: 5em;
+}
+
+.about-section{
+    background-color: var(--navy);
+    padding: 2em;
+    min-height: 100vh;
+    color: var(--whitesmoke);
+    display: flex;
+    flex-flow: column;
+}
+
+.about-section h2{
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.about-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2em; 
+    padding-top: 4em;
+    flex: 1;
+    align-items: start;
+}
+
+.about-box{ 
+    border: 2px solid var(--whitesmoke);
+    padding: 3em;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    min-height: 50vh;
+}
+
+.about-box:hover{
+    background-color: hsl(255, 81%, 39%);
+    cursor: crosshair;
+}
+
+.about-box h3{
+    text-align: center;
+    padding-bottom: 3.5em;
+}
+
+.about-section footer{
+    text-align: center;
+    margin-top: auto;
 }
