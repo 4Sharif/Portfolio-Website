@@ -16,8 +16,8 @@ Welcome to my **Portfolio Website**, a personal site built to showcase my skills
 
 ---
 
-## Setup
+## Setup (If link isn't available/working)
 
 1. **Clone / download** this repository  
-2. **Run a local server** to preview changes in real-time  
+2. **Run a local server**    
 3. **Open your browser** and navigate to your local server   
