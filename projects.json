@@ -5,8 +5,9 @@
         "status": "inprogress",
         "date": "2025-03",
         "tech": ["JavaScript", "React", "Firebase"],
-        "description": "A collaborative code editor with real-time features.",
-        "link": "https://github.com/4Sharif/Context"
+        "description": "Context is a code editor application that lets users write, compile, and collaborate on code in real time. It supports versioning, user authentication, secure document sharing, and a live preview compiler for multiple languages.",
+        "link": "https://github.com/4Sharif/Context",
+        "image": "images/project-images/context.png"
     },
     {
         "name": "NBA PER Prediction Model",
@@ -14,8 +15,9 @@
         "status": "inprogress",
         "date": "2024-10",
         "tech": ["Python", "Excel", "Matplot"],
-        "description": "A collaborative code editor with real-time features.",
-        "link": "https://github.com/4Sharif/Context"
+        "description": "This project applies data mining and machine learning to predict Player Efficiency Rating (PER) using advanced NBA statistics. Built using Python, the model draws from 11 seasons of NBA data (2014–2024) and was designed with a focus on predictive accuracy, feature analysis, and real-world usability.",
+        "link": "https://github.com/4Sharif/PER-Prediction-Model",
+        "image": "images/project-images/per.png"
     },
     {
         "name": "Digital Manager",
@@ -23,8 +25,9 @@
         "status": "complete",
         "date": "2024-11",
         "tech": ["Java", "Java Swing"],
-        "description": "A collaborative code editor with real-time features.",
-        "link": "https://github.com/4Sharif/Context"
+        "description": "This management system is a Java-based application built with Swing that allows users to store and manipulate employee records. Designed as a CRUD system, the application is ideal for small businesses or teams that need a lightweight, local employee record manager.",
+        "link": "https://github.com/4Sharif/Digital-Manager", 
+        "image": "images/project-images/dm.png"
     },
     {
         "name": "Garden By Deka",
@@ -32,7 +35,8 @@
         "status": "complete",
         "date": "2025-07",
         "tech": ["HTML", "CSS", "JavaScript"],
-        "description": "A collaborative code editor with real-time features.",
-        "link": "https://github.com/4Sharif/Context"
+        "description": "a gardening blog created for TikTok creator Deka (@ladybugs2002). This site showcases all the work she put into her garden. There's four pages, and they all share a consistent theme built with HTM, CSS, and JavaScript.",
+        "link": "https://github.com/4Sharif/Garden-By-Deka",
+        "image": "images/project-images/gbd.png"
     }
 ]

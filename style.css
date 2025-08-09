@@ -18,7 +18,7 @@ body{
 
 .header-section{ 
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 2em; /* Section padding */
     background-color: var(--navy);
     color: var(--whitesmoke);
@@ -110,6 +110,7 @@ body{
 
 .skill-section{
     width: 100%; 
+    min-height: 100vh;
     padding: 2em;
 }
 
@@ -171,7 +172,7 @@ body{
 }
 
 .project-section .filters{ 
-    padding: 1.75em 0; 
+    padding: 1.75em; 
     width: 25%;
     display: flex; 
     justify-content: space-between;
@@ -195,7 +196,7 @@ body{
     border: 2px solid snow;
     display: flex;  
     gap: 1em;
-    padding: 2em; 
+    padding: 1em 2em; 
     height: auto;  
     align-items: center;
 }
@@ -259,6 +260,14 @@ body{
     color: var(--whitesmoke); 
     align-self: center; 
     margin-top: auto;
+}
+
+.project-link:hover{
+    color: hsl(0, 0%, 80%);
+}
+
+.project-link:active{
+    color: hsl(0, 0%, 70%);
 }
 
 .project-main{
