@@ -48,14 +48,13 @@ function render() {
 }
 
 function applyFilters() {
-    const type   = typeSelect.value.toLowerCase();
+    const type = typeSelect.value.toLowerCase();
     const status = statusSelect.value.toLowerCase();
     const sortBy = sortSelect.value;
 
     filtered = allProjects
         .filter(p =>
-            (!type   || p.type   === type) &&
-            (!status || p.status === status)
+            (!type || p.type === type) && (!status || p.status === status)
         );
 
     if (sortBy === 'newest') {
@@ -73,11 +72,13 @@ function applyFilters() {
     sortSelect.addEventListener('change', applyFilters);
 
     leftBtn.addEventListener('click', () => {
-    if (i > 0) { i--; render(); }
-    });
+    if (i > 0) { 
+        i--; render(); 
+    }});
 
     rightBtn.addEventListener('click', () => {
-    if (i < filtered.length - 1) { i++; render(); }
-});
+    if (i < filtered.length - 1) { 
+        i++; render(); 
+    }});
 
 document.addEventListener('DOMContentLoaded', loadData);

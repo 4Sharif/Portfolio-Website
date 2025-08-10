@@ -321,7 +321,7 @@ body{
     overflow-x: scroll;
     scroll-snap-type: x mandatory; 
     height: 100%;
-    gap: 1em;
+    gap: 1.5em;
 } 
 
 .course-container li{
@@ -334,7 +334,7 @@ body{
 }
 
 .course-container p{
-    font-size: 1.2em;
+    font-size: 1.35em;
     padding-top: 5em;
 }
 

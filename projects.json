@@ -14,7 +14,7 @@
         "type": "data",
         "status": "inprogress",
         "date": "2024-10",
-        "tech": ["Python", "Excel", "Matplot"],
+        "tech": ["Excel", "Python", "Pandas", "Matplot", "Scikit-learn"],
         "description": "This project applies data mining and machine learning to predict Player Efficiency Rating (PER) using advanced NBA statistics. Built using Python, the model draws from 11 seasons of NBA data (2014–2024) and was designed with a focus on predictive accuracy, feature analysis, and real-world usability.",
         "link": "https://github.com/4Sharif/PER-Prediction-Model",
         "image": "images/project-images/per.png"
@@ -24,7 +24,7 @@
         "type": "app",
         "status": "complete",
         "date": "2024-11",
-        "tech": ["Java", "Java Swing"],
+        "tech": ["Java", "Swing"],
         "description": "This management system is a Java-based application built with Swing that allows users to store and manipulate employee records. Designed as a CRUD system, the application is ideal for small businesses or teams that need a lightweight, local employee record manager.",
         "link": "https://github.com/4Sharif/Digital-Manager", 
         "image": "images/project-images/dm.png"
@@ -35,8 +35,18 @@
         "status": "complete",
         "date": "2025-07",
         "tech": ["HTML", "CSS", "JavaScript"],
-        "description": "a gardening blog created for TikTok creator Deka (@ladybugs2002). This site showcases all the work she put into her garden. There's four pages, and they all share a consistent theme built with HTM, CSS, and JavaScript.",
+        "description": "A gardening blog created for TikTok creator Deka (@ladybugs2002). This site showcases all the work she put into her garden. There's four pages, and they all share a consistent theme built with HTM, CSS, and JavaScript.",
         "link": "https://github.com/4Sharif/Garden-By-Deka",
         "image": "images/project-images/gbd.png"
+    },
+    {
+        "name": "Guessing Game",
+        "type": "game",
+        "status": "complete",
+        "date": "2025-01",
+        "tech": ["C"],
+        "description": "This is a command-line guessing game. It randomly generates a three-digit code using digits between 0 and 9. The user has eight tries to guess the correct number. After each attempt, the program provides hints indicating whether the guess is too high or too low, how many digits are correct and in the correct position, and how many are correct but in the wrong position.",
+        "link": "https://github.com/4Sharif/Guessing-Game",
+        "image": "images/project-images/gg.png"
     }
 ]
