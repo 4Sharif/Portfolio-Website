@@ -8,6 +8,7 @@
 html {
     scrollbar-width: none;
     scroll-behavior: smooth;
+    background-color: var(--navy);
 }
 
 html::-webkit-scrollbar {
@@ -245,8 +246,8 @@ body{
 .project-box img{
     align-self: center;
     border-radius: .2em;
-    width: 20em;
-    height: 20em;
+    width: auto;
+    height: 17em;
 }
 
 .project-box .tech-stack{ 
@@ -378,6 +379,7 @@ body{
 
 .about-box h3{
     text-align: center;
+    font-size: 1.25em;
     padding-bottom: 3.5em;
 }
 

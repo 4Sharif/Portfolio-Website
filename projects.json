@@ -48,5 +48,55 @@
         "description": "This is a command-line guessing game. It randomly generates a three-digit code using digits between 0 and 9. The user has eight tries to guess the correct number. After each attempt, the program provides hints indicating whether the guess is too high or too low, how many digits are correct and in the correct position, and how many are correct but in the wrong position.",
         "link": "https://github.com/4Sharif/Guessing-Game",
         "image": "images/project-images/gg.png"
+    },
+    {
+        "name": "Python Image Recognition",
+        "type": "data",
+        "status": "future",
+        "date": "2025-08",
+        "tech": ["Python"],
+        "description": "This is a command-line guessing game. It randomly generates a three-digit code using digits between 0 and 9. The user has eight tries to guess the correct number. After each attempt, the program provides hints indicating whether the guess is too high or too low, how many digits are correct and in the correct position, and how many are correct but in the wrong position.",
+        "link": "",
+        "image": "images/project-images/future.png"
+    },
+    {
+        "name": "Binder",
+        "type": "app",
+        "status": "future",
+        "date": "2025-09",
+        "tech": ["JavaScript","AWS"],
+        "description": "A personal media library for audio and video files. Users can upload, organize, and stream content through a clean interface, create playlists, and share their library with others. Includes search, filters, and profile sharing features.",
+        "link": "",
+        "image": "images/project-images/future.png"
+    },
+    {
+        "name": "Organ",
+        "type": "app",
+        "status": "future",
+        "date": "2025-10",
+        "tech": ["JavaScript","Azure"],
+        "description": "A quick-capture tool for saving URLs, text/code snippets, and notes with a simple keyboard shortcut. Stores items in an organized dashboard, uses AI to generate summaries and keyword tags for fast search.",
+        "link": "",
+        "image": "images/project-images/future.png"
+    },
+    {
+        "name": "Craft",
+        "type": "app",
+        "status": "future",
+        "date": "2025-11",
+        "tech": ["JavaScript"],
+        "description": "An AI-powered interview practice app. Users can simulate interviews with voice AI, receive instant feedback on answers, tone, and pacing, and review detailed performance metrics to improve.",
+        "link": "",
+        "image": "images/project-images/future.png"
+    },
+    {
+        "name": "Queue AS",
+        "type": "app",
+        "status": "future",
+        "date": "2025-12",
+        "tech": ["JavaScript"],
+        "description": "A smart appointment scheduling system for clinics and businesses. Handles conflict detection, automated reminders, secure patient/customer data, and role-based user access with an easy-to-use dashboard.",
+        "link": "",
+        "image": "images/project-images/future.png"
     }
 ]
