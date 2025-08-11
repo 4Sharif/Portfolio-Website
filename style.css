@@ -383,6 +383,19 @@ body{
     padding-bottom: 3.5em;
 }
 
+.about-box a{
+    font-weight: bold;
+    color: var(--whitesmoke);
+}
+
+.about-box a:hover{
+    color: hsl(0, 0%, 80%);
+}
+
+.about-box a:active{
+    color: hsl(0, 0%, 70%);
+}
+
 .about-section footer{
     text-align: center;
     margin-top: auto;
