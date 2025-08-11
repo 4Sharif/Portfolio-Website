@@ -5,7 +5,7 @@
         "status": "inprogress",
         "date": "2025-03",
         "tech": ["JavaScript", "React", "Firebase"],
-        "description": "Context is a code editor application that lets users write, compile, and collaborate on code in real time. It supports versioning, user authentication, secure document sharing, and a live preview compiler for multiple languages.",
+        "description": "A code editor application that allows users to write, compile, and share code seamlessly. Features include version control, user authentication, document sharing, and a live preview compiler supporting multiple programming languages. Built for efficiency and scalability.",
         "link": "https://github.com/4Sharif/Context",
         "image": "images/project-images/context.png"
     },
@@ -15,7 +15,7 @@
         "status": "inprogress",
         "date": "2024-10",
         "tech": ["Excel", "Python", "Pandas", "Matplot", "Scikit-learn"],
-        "description": "This project applies data mining and machine learning to predict Player Efficiency Rating (PER) using advanced NBA statistics. Built using Python, the model draws from 11 seasons of NBA data (2014–2024) and was designed with a focus on predictive accuracy, feature analysis, and real-world usability.",
+        "description": "A data mining and machine learning project designed to predict Player Efficiency Ratings (PER) using advanced NBA statistics. Trained on multiple years of data (2014-2024), the model emphasizes predictive accuracy, feature importance analysis, and practical insights for sports analytics.",
         "link": "https://github.com/4Sharif/PER-Prediction-Model",
         "image": "images/project-images/per.png"
     },
@@ -25,7 +25,7 @@
         "status": "complete",
         "date": "2024-11",
         "tech": ["Java", "Swing"],
-        "description": "This management system is a Java-based application built with Swing that allows users to store and manipulate employee records. Designed as a CRUD system, the application is ideal for small businesses or teams that need a lightweight, local employee record manager.",
+        "description": "A Java-based CRUD application for managing employee records. Built with Swing, this lightweight desktop tool allows users to add, update, delete, and search employee data. Ideal for small businesses and/or teams needing a local management solution.",
         "link": "https://github.com/4Sharif/Digital-Manager", 
         "image": "images/project-images/dm.png"
     },
@@ -35,7 +35,7 @@
         "status": "complete",
         "date": "2025-07",
         "tech": ["HTML", "CSS", "JavaScript"],
-        "description": "A gardening blog created for TikTok creator Deka (@ladybugs2002). This site showcases all the work she put into her garden. There's four pages, and they all share a consistent theme built with HTM, CSS, and JavaScript.",
+        "description": "A four-page gardening blog developed for a TikTok creator, showcasing her work and passion for gardening. Designed with consistent theming, responsive layouts, and interactive elements using HTML, CSS, and JavaScript.",
         "link": "https://github.com/4Sharif/Garden-By-Deka",
         "image": "images/project-images/gbd.png"
     },
@@ -45,27 +45,17 @@
         "status": "complete",
         "date": "2025-01",
         "tech": ["C"],
-        "description": "This is a command-line guessing game. It randomly generates a three-digit code using digits between 0 and 9. The user has eight tries to guess the correct number. After each attempt, the program provides hints indicating whether the guess is too high or too low, how many digits are correct and in the correct position, and how many are correct but in the wrong position.",
+        "description": "A terminal-based C game where players have eight attempts to guess a randomly generated three-digit number. After each guess, the game provides targeted hints on correctness, position accuracy, and relative value, encouraging strategic thinking.",
         "link": "https://github.com/4Sharif/Guessing-Game",
         "image": "images/project-images/gg.png"
-    },
-    {
-        "name": "Python Image Recognition",
-        "type": "data",
-        "status": "future",
-        "date": "2025-08",
-        "tech": ["Python"],
-        "description": "This is a command-line guessing game. It randomly generates a three-digit code using digits between 0 and 9. The user has eight tries to guess the correct number. After each attempt, the program provides hints indicating whether the guess is too high or too low, how many digits are correct and in the correct position, and how many are correct but in the wrong position.",
-        "link": "",
-        "image": "images/project-images/future.png"
-    },
+    }, 
     {
         "name": "Binder",
         "type": "app",
         "status": "future",
         "date": "2025-09",
-        "tech": ["JavaScript","AWS"],
-        "description": "A personal media library for audio and video files. Users can upload, organize, and stream content through a clean interface, create playlists, and share their library with others. Includes search, filters, and profile sharing features.",
+        "tech": ["JavaScript","AWS","Next.js"],
+        "description": "A personal media library for managing audio and video content. Users can upload, categorize, and share their curated collections. Will include filtering options and collaborative profile sharing features. Ideal for people that want to access their own digital media in a user-friendly way.",
         "link": "",
         "image": "images/project-images/future.png"
     },
@@ -75,7 +65,7 @@
         "status": "future",
         "date": "2025-10",
         "tech": ["JavaScript","Azure"],
-        "description": "A quick-capture tool for saving URLs, text/code snippets, and notes with a simple keyboard shortcut. Stores items in an organized dashboard, uses AI to generate summaries and keyword tags for fast search.",
+        "description": "A quick-capture saving tool for storing URLs, text/code snippets, documents, images, and more with keyboard shortcuts. Integrates AI to automatically generate summaries and keyword tags, enabling fast retrieval through a dashboard interface.",
         "link": "",
         "image": "images/project-images/future.png"
     },
@@ -84,8 +74,8 @@
         "type": "app",
         "status": "future",
         "date": "2025-11",
-        "tech": ["JavaScript"],
-        "description": "An AI-powered interview practice app. Users can simulate interviews with voice AI, receive instant feedback on answers, tone, and pacing, and review detailed performance metrics to improve.",
+        "tech": ["JavaScript","Postgres"],
+        "description": "An AI-powered interview preparation platform. Simulates realistic interviews with voice-based AI, delivers instant feedback on content quality, tone, and pacing, and provides detailed performance analytics to guide improvement.",
         "link": "",
         "image": "images/project-images/future.png"
     },
@@ -94,8 +84,8 @@
         "type": "app",
         "status": "future",
         "date": "2025-12",
-        "tech": ["JavaScript"],
-        "description": "A smart appointment scheduling system for clinics and businesses. Handles conflict detection, automated reminders, secure patient/customer data, and role-based user access with an easy-to-use dashboard.",
+        "tech": ["JavaScript","React","Redis"],
+        "description": "An appointment scheduling application for clinics and service-based businesses. Features include conflict detection, automated reminders, secure client data handling, and role-based access control. Everything will be managed from a dashboard interface.",
         "link": "",
         "image": "images/project-images/future.png"
     }

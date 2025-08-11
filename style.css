@@ -203,7 +203,8 @@ body{
 }
 
 .project-section .project-box{
-    border: 2px solid snow;
+    border: 2px solid var(--whitesmoke);
+    border-radius: .35em;
     display: flex;  
     gap: 1em;
     padding: 1em 2em; 
@@ -248,6 +249,7 @@ body{
     border-radius: .2em;
     width: auto;
     height: 17em;
+    border: 2px solid var(--whitesmoke);
 }
 
 .project-box .tech-stack{ 
@@ -374,6 +376,7 @@ body{
 
 .about-box:hover{
     background-color: hsl(255, 81%, 39%);
+    transition: ease-in 0.15s;
     cursor: crosshair;
 }
 
