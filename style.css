@@ -29,7 +29,7 @@ body{
 .header-section{ 
     width: 100%;
     min-height: 100vh;
-    padding: 2em; /* Section padding */
+    padding: 3em; /* Section padding */
     background-color: var(--navy);
     color: var(--whitesmoke);
 } 
@@ -70,12 +70,12 @@ body{
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    gap: 5em;
+    gap: 5em;  
 }
 
 .header-section .intro{  
-    width: 45%;
-    font-size: 1.25em;
+    width: 70%;
+    font-size: 1.4em;   
 }
 
 .header-section .intro .name{
@@ -84,22 +84,23 @@ body{
 }
 
 .header-section .headshot{
-    width: 40%; 
-    justify-content: right;
+    width: 30%; 
+    display: flex;
+    justify-content: end;   
 }
 
 .header-section .headshot img{ 
     width: 100%;
     height: 100%; 
-    border-radius: 14px;
+    border-radius: 14px; 
 }
 
 .header-section .resume{
     width: 100%;
     height: 15%;
-    padding: 1em;
+    padding: 4em;
     text-align: center;
-    margin: 6em auto;
+    margin: 3em auto;
     color: var(--whitesmoke); 
 } 
 
@@ -121,7 +122,7 @@ body{
 .skill-section{
     width: 100%; 
     min-height: 100vh;
-    padding: 2em;
+    padding: 3em;
 }
 
 .skill-section h2{
@@ -170,7 +171,7 @@ body{
     width: 100%;
     height: auto;
     min-height: 100vh;
-    padding: 2em;
+    padding: 3em;
     background-color: var(--navy);
     color: var(--whitesmoke);
 }
@@ -297,7 +298,7 @@ body{
 
 .course-section{
     min-height: 100vh;
-    padding: 2em;
+    padding: 3em;
     display: flex;
     flex-direction: column;
 }
@@ -343,7 +344,7 @@ body{
 
 .about-section{
     background-color: var(--navy);
-    padding: 2em;
+    padding: 3em;
     min-height: 100vh;
     color: var(--whitesmoke);
     display: flex;
@@ -430,6 +431,10 @@ body{
 }
 
 @media screen and (max-width: 1110px){
+    .header-section .intro{
+        font-size: 1em;
+    }
+
     .project-box img{
         height: 13em;
     }
@@ -460,6 +465,10 @@ body{
 }
 
 @media screen and (max-width: 820px){
+    .header-section .resume{ 
+        display: none;
+    }
+
     .skill-section .skill-boxes{
         grid-template-columns: auto;
     }
@@ -470,12 +479,20 @@ body{
 } 
 
 @media screen and (max-width: 700px){
+    .header-section .headshot{
+        display: none;
+    }
+
     .project-section .filters{ 
         display: none;
     }
 
     .project-section h2{
         padding-bottom: 2em;
+    }
+
+    .project-section img{
+        height: 10em;
     }
 
     .intro-and-headshot{
@@ -485,5 +502,11 @@ body{
 
     .header-section ul{
         display: none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .skill-section .skill-box{
+        width: 15em;
     }
 }
