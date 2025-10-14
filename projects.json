@@ -4,7 +4,7 @@
         "type": "app",
         "status": "inprogress",
         "date": "2025-03",
-        "tech": ["React", "Node.js", "Jest", "Firebase", "Axios"],
+        "tech": ["React", "Node.js", "Firebase"],
         "description": "A code editor application that allows users to write, compile, and share code seamlessly. Features include version control, user authentication, document sharing, and a compiler supporting multiple programming languages. Built for efficiency and scalability.",
         "link": "https://github.com/4Sharif/Context",
         "image": "images/project-images/context.png"
@@ -14,7 +14,7 @@
         "type": "data",
         "status": "complete",
         "date": "2024-11",
-        "tech": ["Excel", "Python", "Pandas", "Matplot", "Scikit-learn"],
+        "tech": ["Excel","Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
         "description": "A data mining and machine learning project designed to predict Player Efficiency Ratings (PER) using advanced NBA statistics. Trained on multiple years of data (2014-2024), the model emphasizes predictive accuracy, feature importance analysis, and practical insights for sports analytics.",
         "link": "https://github.com/4Sharif/PER-Prediction-Model",
         "image": "images/project-images/per.png"
@@ -24,8 +24,8 @@
         "type": "app",
         "status": "complete",
         "date": "2024-09",
-        "tech": ["Java","Swing","ArrayList","Hashmaps"],
-        "description": "A Java-based CRUD application for managing employee records. Built with Swing, this lightweight desktop tool allows users to add, update, delete, and search employee data. Ideal for small businesses and/or teams needing a local management solution.",
+        "tech": ["Java","Java Swing Library", "Data Structures"],
+        "description": "A Java-based CRUD application for managing employee records. Built with Swing, this lightweight desktop tool allows users to add, update, delete, and search employee data. Ideal for small organizations that need a local management solution.",
         "link": "https://github.com/4Sharif/Digital-Manager", 
         "image": "images/project-images/dm.png"
     },
@@ -70,11 +70,41 @@
         "image": "images/project-images/pp.png"
     }, 
     {
+        "name": "Weather App",
+        "type": "app",
+        "status": "inprogress",
+        "date": "2025-12",
+        "tech": ["Next.js","TypeScript","CSS","Tauri"],
+        "description": "A responsive weather application designed for desktop and mobile, featuring real-time temperature, hourly forecasts, and visuals that adapt to weather conditions. Desktop layout includes a personalized dashboard with search, saved locations, and daily or weekly forecast views, while mobile users access a simplified real-time panel.",
+        "link": "",
+        "image": "images/project-images/weather.png"
+    },
+    {
+        "name": "Heatwave Analysis",
+        "type": "data",
+        "status": "future",
+        "date": "2029-01",
+        "tech": ["Excel","MySQL","Apache Spark","Python","Tableau"],
+        "description": "A data project that identifies regions most prone to heatwaves using large-scale climate datasets. Involves building ETL pipelines for data ingestion, cleaning, and enrichment with contextual factors like population density and climate trends. Designed to generate clear insights and visualizations highlighting vulnerable areas.",
+        "link": "",
+        "image": "images/project-images/future.png"
+    },
+    {
+        "name": "SmartBudget",
+        "type": "data",
+        "status": "future",
+        "date": "2029-01",
+        "tech": ["Pandas","Apache Spark","Databricks","TensorFlow","Tableau","MySQL","MongoDB"],
+        "description": "A personal finance project that categorizes transactions to predict future expenses using machine learning. The system ingests raw financial data, cleans and processes it with Pandas, NumPy, and PySpark, and classifies spending into categories such as food, bills, and entertainment. Predictive models built in TensorFlow and Scikit-learn forecast upcoming expenses, while interactive dashboards in Tableau visualize spending trends.",
+        "link": "",
+        "image": "images/project-images/future.png"
+    },
+    {
         "name": "Binder",
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["React","TypeScript","Tailwind","Node.js","Azure","Postgres"],
+        "tech": ["React","TypeScript","CSS","Node.js","Azure","PostgreSQL"],
         "description": "A personal media library for managing audio and video content. Users can upload, categorize, and share their curated collections. Will include filtering options and collaborative profile sharing features. Ideal for people that want to access their own digital media in a user-friendly way.",
         "link": "",
         "image": "images/project-images/future.png"
@@ -84,7 +114,7 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["Next.js","TypeScript","FastAPI","Postgres","Ollama"],
+        "tech": ["Next.js","TypeScript","FastAPI","PostgreSQL","OpenAI API"],
         "description": "A quick-capture saving tool for storing URLs, text/code snippets, documents, images, and more with keyboard shortcuts. Integrates AI to automatically generate summaries and keyword tags, enabling fast retrieval through a dashboard interface.",
         "link": "",
         "image": "images/project-images/future.png"
@@ -94,7 +124,7 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["Next.js","React","Postgres"],
+        "tech": ["Next.js","React","CSS","PostgreSQL"],
         "description": "An AI-powered interview preparation platform. Simulates realistic interviews with voice-based AI, delivers instant feedback on content quality, tone, and pacing, and provides detailed performance analytics to guide improvement.",
         "link": "",
         "image": "images/project-images/future.png"
@@ -104,8 +134,8 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["Tauri","React","Ollama"],
-        "description": "An AI-powered virtual assistant designed as a floating desktop overlay. Provides voice and text-based interactions, screen reading, and light system controls such as opening applications or performing quick searches. Built for accessibility and productivity with a minimal, persistent UI.",
+        "tech": ["Tauri","React","Tailwind"],
+        "description": "A local AI-powered virtual assistant designed as a floating desktop overlay. Provides voice and text-based interactions, screen reading, and light system controls such as opening applications or performing quick searches. Built for accessibility and productivity with a minimal, persistent UI.",
         "link": "",
         "image": "images/project-images/future.png"
     },
@@ -114,7 +144,7 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["Next.js","FastAPI","Postgres"],
+        "tech": ["Next.js","FastAPI","PostgreSQL"],
         "description": "A mobile-friendly application that connects individuals with essential community resources such as food banks, clinics, shelters, and legal aid. Features a ZIP code-based search, interactive map pins, detailed resource information, and more.",
         "link": "",
         "image": "images/project-images/future.png"
@@ -124,7 +154,7 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["Next.js","Firebase","Postgres","Django"],
+        "tech": ["Next.js","Firebase","PostgreSQL","Django"],
         "description": "An interactive course creation and management platform that enables creators to build lessons, quizzes, and daily challenges while providing learners with progress tracking, streaks, and leaderboards. Designed to make online learning engaging, customizable, and scalable.",
         "link": "",
         "image": "images/project-images/future.png"
@@ -134,18 +164,8 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["Django","React","Tailwind","Postgres"],
+        "tech": ["Django","React","Tailwind","PostgreSQL"],
         "description": "An appointment scheduling application for clinics and service-based businesses. Features include conflict detection, automated reminders, secure client data handling, and role-based access control. Everything will be managed from a dashboard interface.",
-        "link": "",
-        "image": "images/project-images/future.png"
-    },
-    {
-        "name": "Heatwave Analysis",
-        "type": "data",
-        "status": "future",
-        "date": "2029-01",
-        "tech": ["Azure","Postgres","Apache","Spark","Python","Docker","Tableau"],
-        "description": "A data-driven project focused on identifying regions most prone to heatwaves using historical temperature datasets. The project emphasizes data engineering by ingesting, cleaning, and transforming large-scale climate data, then enriching it with contextual features such as population density, urban heat islands, and long-term climate trends. The end goal is to produce reproducible pipelines that generate insights into the drivers of extreme heat events and highlight vulnerable regions.",
         "link": "",
         "image": "images/project-images/future.png"
     }
