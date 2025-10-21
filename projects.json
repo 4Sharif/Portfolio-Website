@@ -76,7 +76,7 @@
         "date": "2025-12",
         "tech": ["Next.js","TypeScript","CSS","Tauri"],
         "description": "A responsive weather application designed for desktop and mobile, featuring real-time temperature, hourly forecasts, and visuals that adapt to weather conditions. Desktop layout includes a personalized dashboard with search, saved locations, and daily or weekly forecast views, while mobile users access a simplified real-time panel.",
-        "link": "",
+        "link": "https://github.com/4Sharif/Weather-App",
         "image": "images/project-images/weather.png"
     },
     {
