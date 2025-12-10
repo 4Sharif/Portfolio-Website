@@ -1,0 +1,62 @@
+{
+  "algorithm": {
+    "title": "Algorithm Design",
+    "description": "Study of algorithm design techniques including divide-and-conquer, greedy algorithms, dynamic programming, and graph algorithms. Analysis of algorithm complexity and correctness."
+  },
+  "calculus": {
+    "title": "Calculus I & II",
+    "description": "Theory and applications of matrix algebra, vector spaces, and linear transformations. Topics include linear equations and matrices, invertible matrices, determinants, vector spaces, subspaces, bases, eigenvalues and eigenvectors."
+  },
+  "cloud": {
+    "title": "Cloud Computing",
+    "description": "This course covers topics related to cloud computing including cloud computing infrastructure such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Popular cloud services such as AWS, Microsoft Azure and Google Cloud will be introduced. Container technologies such as Docker, Kubernetes etc. will be introduced."
+  },
+  "computer": {
+    "title": "Computer Organization",
+    "description": "Introduction to computer organization and architecture. Topics include digital logic, instruction sets, assembly language, memory hierarchy, and input/output systems."
+  },
+  "cybersecurity": {
+    "title": "Cybersecurity",
+    "description": "This course provides an initial overview on the topic of Information Security. It covers the basics of encryption and decryption, program security including viruses and other malicious code, application security, security in operating systems, security in networks and distributed systems, different methods of administering security, and legal and ethical issues in computer security."
+  },
+  "datamining": {
+    "title": "Data Mining",
+    "description": "Introduction to basic data mining techniques (such as association rules mining, cluster analysis, and classification methods) and their applications (such as Web data mining, biomedical data mining and security)."
+  },
+  "datastructures": {
+    "title": "Data Structures",
+    "description": "Basic concepts and analysis of data representation and associated algorithms, including linearly-linked lists, multi-linked structures, trees, searching, and sorting. Includes classic algorithms for sorting, searching, recursion, and divide-and-conquer strategies, with asymptotic analysis and trade-offs in time/space."
+  },
+  "linear": {
+    "title": "Linear Algebra",
+    "description": "Theory and applications of matrix algebra, vector spaces, and linear transformations. Topics include linear equations and matrices, invertible matrices, determinants, vector spaces, subspaces, bases, eigenvalues and eigenvectors."
+  },
+  "mobile": {
+    "title": "Mobile App Development",
+    "description": "Introduction to mobile application development. Topics include mobile platform architecture, user interface design, data persistence, networking, and deployment strategies."
+  },
+  "operating": {
+    "title": "Operating Systems",
+    "description": "Introduction to operating systems concepts. Topics may include multiprogramming, resources allocation and management, and their implementation."
+  },
+  "principles": {
+    "title": "Principles of CS I & II",
+    "description": "Introduction to fundamental concepts of computer science. Topics include problem-solving strategies, algorithm development, programming fundamentals, data types, control structures, and basic data structures."
+  },
+  "probability": {
+    "title": "Probability & Statistics",
+    "description": "This course covers theory and applications of probability models, random variables, discrete and continuous probability distributions, joint and conditional distributions, sampling distributions, central limit theorem, hypothesis testing, confidence intervals, and exposure to simple linear regression. Time-to-failure probability models are considered."
+  },
+  "software": {
+    "title": "Software Development",
+    "description": "This course is intended to teach the disciplined process of software design. Using system development methods, from formal specification of Unified Modeling Language (UML) for supporting software development, through engineering practices such as design, testing, and developing system architecture via design patterns. Critical Thinking through Writing course."
+  },
+  "system": {
+    "title": "System Design",
+    "description": "Introduction to system design principles and methodologies. Topics include architecture patterns, scalability, reliability, and distributed systems concepts."
+  },
+  "systemlevel": {
+    "title": "System Level Programming",
+    "description": "An introduction to programming at the level of the operating system. Topics include editors, system calls, programming tools, files, processes, interprocess communication, and shells."
+  }
+} 

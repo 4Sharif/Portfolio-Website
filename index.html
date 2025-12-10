@@ -3,245 +3,371 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <meta name="description" content="Portfolio website for Mohamed Sharif">
-    <meta name="keywords" content="Mohamed Sharif, mohamed, sharif">
+    <meta name="keywords" content="Mohamed Sharif, Computer Science, Portfolio, Software Development, Data Science, AI">
     <meta name="author" content="Mohamed Sharif">
-    <link rel="icon" href="images/Portfolio-Favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <title>Mohamed Sharif</title>
+    
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header-section">
-        <h1>Mohamed Sharif</h1>  
-        <nav>
-            <ul>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#coursework">Coursework</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav> 
-        <div class="intro-and-headshot">
-            <div class="intro">
-                <p class="description">
-                    Hi! My name is <br><br><p class="name">Mohamed</p><br>I'm a computer science student at Georgia State with a passion for technology and innovation. I actively share my work and ideas through platforms such as GitHub, LinkedIn, and more, showcasing both my projects and interests. Currently, I'm intrigued by most roles that prioritize data, software, AI, and cloud systems. Over time, I've enjoyed the process of solving real-world problems and helping others achieve their goals. Technology continues to inspire me, and I’m committed to learning, growth, and making an impact. Feel free to check out my work anytime!
-                </p>
-            </div>
-            <div class="headshot">
-                <img src="images/image.png" alt="Mohamed Sharif">
-            </div>
-        </div> 
-        <div class="resume"> 
-            <a href="resume/Resume.pdf" target="_blank" rel="noopener noreferrer"">View My Resume</a> 
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-social-icons">
+            <a href="https://www.tiktok.com/@4sharif" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://x.com/45Sharif" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
         </div>
-    </header>
-    <section id="skills" class="skill-section">
-        <h2>Skills</h2>
-        <div class="skill-boxes">
-            <div class="skill-box">
-                <h3>Languages & Frameworks</h3>
-                <ul>
+        
+        <nav class="nav-pill"> 
+            <a href="#skills" class="nav-item">Skills</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#coursework" class="nav-item">Coursework</a>
+            <a href="#about" class="nav-item">About</a>
+        </nav>
+        
+        <div class="hero-social-icons-right">
+            <a href="https://github.com/4Sharif" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mohamed4sharif/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hi! My name is</p>
+                <h1 class="hero-name">Mohamed</h1>
+                <p class="hero-description">I'm a computer science student at Georgia State, passionate about technology and innovation. I actively share my work and ideas across platforms such as GitHub, LinkedIn, and others, showcasing my projects and interests. Currently, I'm intrigued by roles that involve software engineering, cloud systems, data, and AI. <br><br> Over time, I've enjoyed solving real-world technical problems, learning new concepts, and helping others achieve their goals. Technology continues to inspire me, and I'm committed to knowledge, growth, effort, and making an impact. Feel free to check out my work anytime!</p>
+            </div>
+            
+            <div class="hero-image-container">
+                <img src="images/lightmode-heropic.png" alt="Mohamed Sharif" class="hero-image" id="heroImage">
+            </div>
+        </div>
+        
+        <div class="soft-skills-carousel">
+            <div class="soft-skills-track">
+                <span class="soft-skill-item">Adaptability</span>
+                    <span class="soft-skill-item">Attention to Detail</span>
+                    <span class="soft-skill-item">Communication</span>
+                    <span class="soft-skill-item">Continuous Learning</span>
+                    <span class="soft-skill-item">Critical Thinking</span>
+                    <span class="soft-skill-item">Documentation</span>
+                    <span class="soft-skill-item">Organization</span>
+                    <span class="soft-skill-item">Patience</span>
+                    <span class="soft-skill-item">Problem-Solving</span>
+                    <span class="soft-skill-item">Professionalism</span>
+                    <span class="soft-skill-item">Teamwork & Collaboration</span>
+                    <span class="soft-skill-item">Time Management</span>
+                    <span class="soft-skill-item">Work Ethic</span>
+                     
+                    <span class="soft-skill-item">Adaptability</span>
+                    <span class="soft-skill-item">Attention to Detail</span>
+                    <span class="soft-skill-item">Communication</span>
+                    <span class="soft-skill-item">Continuous Learning</span>
+                    <span class="soft-skill-item">Critical Thinking</span>
+                    <span class="soft-skill-item">Documentation</span>
+                    <span class="soft-skill-item">Organization</span>
+                    <span class="soft-skill-item">Patience</span>
+                    <span class="soft-skill-item">Problem-Solving</span>
+                    <span class="soft-skill-item">Professionalism</span>
+                    <span class="soft-skill-item">Teamwork & Collaboration</span>
+                    <span class="soft-skill-item">Time Management</span>
+                    <span class="soft-skill-item">Work Ethic</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2 class="section-title">Skills</h2>
+            
+            <nav class="nav-pill section-nav-pill">
+                <a href="#hero" class="nav-item">Top</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#coursework" class="nav-item">Coursework</a>
+                <a href="#about" class="nav-item">About</a>
+            </nav>
+        </div>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3 class="card-title">Languages & Frameworks</h3>
+                <ul class="skill-list">
                     <li>Python</li>
-                    <li>Java</li>  
-                    <li>C</li>   
-                    <li>C++</li>   
-                    <li>JavaScript</li> 
-                    <li>TypeScript</li> 
-                    <li>HTML</li>  
-                    <li>CSS</li>  
-                    <li>Tailwind</li>  
-                    <li>Tauri</li>  
-                    <li>React</li>  
-                    <li>Node.js</li>  
-                    <li>FastAPI</li>  
-                    <li>Django</li>  
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Rust</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Tailwind</li>
+                    <li>Tauri</li> 
+                    <li>React</li> 
+                    <li>FastAPI</li>
+                    <li>Django</li>
+                    <li>Flask</li>
+                    <li>Flutter</li>
                 </ul>
             </div>
-            <div class="skill-box">
-                <h3>Tools & Platforms</h3>
-                <ul> 
+            
+            <div class="skill-card">
+                <h3 class="card-title">Platforms</h3>
+                <ul class="skill-list">
                     <li>AWS</li>
-                    <li>Microsoft Azure</li>
-                    <li>Docker</li>  
-                    <li>Kubernetes</li>  
-                    <li>Firebase</li>   
-                    <li>Figma</li>  
-                    <li>Notion</li>  
-                    <li>Jira</li>  
-                    <li>Command Line</li> 
-                    <li>Microsoft Office</li>   
+                    <li>Azure</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Firebase</li>
+                    <li>Supabase</li>
+                    <li>GitHub</li>
+                    <li>Ollama</li>
+                    <li>Notion</li>
+                    <li>Figma</li>
+                    <li>Jira</li>
+                    <li>Microsoft Office</li>
                 </ul>
             </div>
-            <div class="skill-box">
-                <h3>Data</h3>
-                <ul> 
-                    <li>PostgreSQL</li> 
-                    <li>MongoDB</li>  
-                    <li>MySQL</li> 
+            
+            <div class="skill-card">
+                <h3 class="card-title">Tools</h3>
+                <ul class="skill-list">
+                    <li>Command Line</li>
+                    <li>Git</li> 
+                    <li>VS Code</li>
+                    <li>PyCharm</li>
+                    <li>Jupyter Notebook</li>
+                    <li>Node.js</li>
+                    <li>NPM</li>
+                    <li>Vite</li>
+                    <li>Cursor</li>
+                    <li>Claude Code</li> 
+                    <li>n8n</li> 
+                </ul>
+            </div>
+            
+            <div class="skill-card">
+                <h3 class="card-title">Python Libraries</h3>
+                <ul class="skill-list">
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Scikit-Learn</li>
+                    <li>Matplotlib</li>
+                    <li>Seaborn</li>
+                    <li>PyTorch</li>
+                    <li>TensorFlow</li>
+                    <li>LangChain</li>
+                    <li>LangGraph</li>
+                </ul>
+            </div>
+            
+            <div class="skill-card">
+                <h3 class="card-title">Data</h3>
+                <ul class="skill-list">
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li> 
                     <li>R Studio</li>
-                    <li>Microsoft Excel</li> 
-                    <li>Apache Spark</li>  
-                    <li>Tableau</li>    
-                    <li>Power BI</li>    
-                    <li>Matplotlib</li>    
-                    <li>Pandas</li>    
-                    <li>NumPy</li>    
-                    <li>Scikit-Learn</li>    
+                    <li>Microsoft Excel</li>
+                    <li>Tableau</li>
+                    <li>Power BI</li>
+                    <li>Apache Spark</li>
+                    <li>Apache Kafka</li>
+                    <li>Apache Hadoop</li> 
+                    <li>Kaggle</li>  
                 </ul>
             </div>
-            <div class="skill-box">
-                <h3>Artificial Intelligence</h3>
-                <ul>
-                    <li>AI Integration</li>
-                    <li>AI Agent Workflow</li>
-                    <li>Retrieval-Augmented Generation</li>
-                    <li>Model Context Protocol</li>
-                    <li>Ollama</li> 
-                    <li>LangChain & LangGraph</li>
-                    <li>n8n</li>   
-                    <li>Cursor</li> 
-                    <li>Claude Code</li>  
-                </ul>
-            </div>
-            <div class="skill-box">
-                <h3>Concepts</h3>
-                <ul> 
-                    <li>Programming</li> 
+            
+            <div class="skill-card">
+                <h3 class="card-title">Concepts</h3>
+                <ul class="skill-list">
+                    <li>Programming</li>
+                    <li>Databases</li>
+                    <li>Cloud Systems</li>
+                    <li>APIs</li> 
+                    <li>Data Pipelines</li>
+                    <li>Data Visualization</li>
+                    <li>Machine Learning</li>
                     <li>Web Development</li>
-                    <li>Data Visualization</li>  
-                    <li>Data Pipelines</li>  
-                    <li>Database Optimization</li>   
+                    <li>Search Engine Optimization</li>
+                    <li>UX/UI Design</li>
+                    <li>Responsive Design</li>
                     <li>Version Control</li> 
-                    <li>APIs</li>  
-                    <li>Machine Learning</li>   
-                    <li>Cloud Engineering</li>     
-                    <li>Search Engine Optimization</li>  
-                    <li>UX/UI Design</li>  
-                </ul>
-            </div>
-            <div class="skill-box">
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Continuous Learning</li> 
-                    <li>Teamwork & Collaboration</li>
-                    <li>Problem-Solving</li>
-                    <li>Communication</li>
-                    <li>Adaptability</li>
-                    <li>Time Management</li> 
-                    <li>Attention to Detail</li> 
-                    <li>Troubleshooting</li>  
-                    <li>Creativity</li> 
-                    <li>Organization</li> 
+                    <li>AI Agents</li>
+                    <li>AI Integration</li>
                 </ul>
             </div>
         </div>
     </section>
-    <section id="projects" class="project-section">
-        <h2>Projects</h2>
-        <div class="filters">
-            <select name="type" id="type-select">
-                <option value="" selected>Type</option>
-                <option value="app">App</option>  
-                <option value="data">Data</option>
-                <option value="website">Website</option> 
-                <option value="game">Game</option>
-            </select>
-            <select name="status" id="status-select">
-                <option value="" selected>Status</option>
-                <option value="complete">Completed</option>
-                <option value="inprogress">In-Progress</option>
-                <option value="future">Future</option> 
-            </select>
-            <select name="sort" id="sort-select">
-                <option value="" selected>Sort-By</option> 
-                <option value="newest">Newest</option>
-                <option value="oldest">Oldest</option>
-            </select>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">Projects</h2>
+            
+            <nav class="nav-pill section-nav-pill">
+                <a href="#hero" class="nav-item">Top</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#coursework" class="nav-item">Coursework</a>
+                <a href="#about" class="nav-item">About</a>
+            </nav>
         </div>
-        <div class="project-box"> 
-            <button>←</button>
-            <div class="project-info"> 
-                <h3></h3> 
-                <div class="project-main"> 
-                    <img src="" alt=""> 
-                    <div class="project-details"> 
-                        <p class="tech-stack"></p>
+        
+        <div class="project-card">
+            <button class="project-arrow project-arrow-left" aria-label="Previous project">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="project-content">
+                <h3 class="project-title"></h3>
+                
+                <div class="project-main">
+                    <div class="project-image-container">
+                        <img src="" alt="" class="project-image">
+                    </div>
+                    
+                    <div class="project-details">
+                        <p class="project-tech"></p>
                         <p class="project-description"></p>
                     </div>
                 </div>
+                
                 <a href="" target="_blank" rel="noopener noreferrer" class="project-link"></a>
             </div>
-            <button>→</button>
+            
+            <button class="project-arrow project-arrow-right" aria-label="Next project">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
     </section>
-    <section id="coursework" class="course-section">
-        <h2>Coursework</h2>
-        <div class="course-container">
-            <ul>
-                <li>
-                    <h3>Cloud Computing</h3>
-                    <p>This course covers topics related to cloud computing including cloud computing infrastructure such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Popular cloud services such as AWS, Microsoft Azure and Google Cloud will be introduced. Container technologies such as Docker, Kubernetes etc. will be introduced.</p>
-                </li>
-                <li>
-                    <h3>Computer Architecture & Assembly</h3>
-                    <p>This course introduces the principles of computer architecture and assembly and machine language. Topics include principles of computer architecture, binary and hexadecimal arithmetic, signed and unsigned arithmetic, memory organization, addressing modes, procedure calls, the stack frame, floating point unit and instruction encoding, as well as writing assembly language programs. The course also covers the basics of CISC vs. RISC architecture and parallel architecture models and programming.</p>
-                </li>
-                <li>
-                    <h3>Cybersecurity</h3>
-                    <p>This course provides an initial overview on the topic of Information Security. It covers the basics of encryption and decryption, program security including viruses and other malicious code, application security, security in operating systems, security in networks and distributed systems, different methods of administering security, and legal and ethical issues in computer security.</p>
-                </li>
-                <li>
-                    <h3>Data Mining</h3>
-                    <p>Introduction to basic data mining techniques (such as association rules mining, cluster analysis, and classification methods) and their applications (such as Web data mining, biomedical data mining and security).</p>
-                </li>
-                <li>
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>Basic concepts and analysis of data representation and associated algorithms, including linearly-linked lists, multi-linked structures, trees, searching, and sorting. Includes classic algorithms for sorting, searching, recursion, and divide-and-conquer strategies, with asymptotic analysis and trade-offs in time/space.</p>
-                </li>
-                <li>
-                    <h3>Linear Algebra</h3>
-                    <p>Theory and applications of matrix algebra, vector spaces, and linear transformations. Topics include linear equations and matrices, invertible matrices, determinants, vector spaces, subspaces, bases, eigenvalues and eigenvectors.</p>
-                </li>
-                <li>
-                    <h3>Operating Systems</h3>
-                    <p>Introduction to operating systems concepts. Topics may include multiprogramming, resources allocation and management, and their implementation.</p>
-                </li>
-                <li>
-                    <h3>Probability & Statistics</h3>
-                    <p>This course covers theory and applications of probability models, random variables, discrete and continuous probability distributions, joint and conditional distributions, sampling distributions, central limit theorem, hypothesis testing, confidence intervals, and exposure to simple linear regression. Time-to-failure probability models are considered.</p>
-                </li>
-                <li>
-                    <h3>Software Development</h3>
-                    <p>This course is intended to teach the disciplined process of software design. Using system development methods, from formal specification of Unified Modeling Language (UML) for supporting software development, through engineering practices such as design, testing, and developing system architecture via design patterns. Critical Thinking through Writing course.</p>
-                </li>
-                <li>
-                    <h3>System-Level Programming</h3>
-                    <p>An introduction to programming at the level of the operating system. Topics include editors, system calls, programming tools, files, processes, interprocess communication, and shells.</p>
-                </li>
-            </ul>
+
+    <!-- Coursework Section -->
+    <section id="coursework" class="coursework-section">
+        <div class="section-header">
+            <h2 class="section-title">Coursework</h2>
+            
+            <nav class="nav-pill section-nav-pill">
+                <a href="#hero" class="nav-item">Top</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#about" class="nav-item">About</a>
+            </nav>
+        </div>
+        
+        <div class="course-grid">
+            <button class="course-button" data-course="algorithm">Algorithm Design</button>
+            <button class="course-button" data-course="calculus">Calculus I & II</button>
+            <button class="course-button" data-course="cloud">Cloud Computing</button>
+            <button class="course-button" data-course="computer">Computer Organization</button>
+            <button class="course-button" data-course="cybersecurity">Cybersecurity</button>
+            <button class="course-button" data-course="datastructures">Data Structures</button>
+            <button class="course-button" data-course="datamining">Data Mining</button>
+            <button class="course-button" data-course="linear">Linear Algebra</button>
+            <button class="course-button" data-course="mobile">Mobile App Development</button>
+            <button class="course-button" data-course="operating">Operating Systems</button>
+            <button class="course-button" data-course="principles">Principles of CS I & II</button>
+            <button class="course-button" data-course="probability">Probability & Statistics</button>
+            <button class="course-button" data-course="software">Software Development</button>
+            <button class="course-button" data-course="system">System Design</button>
+            <button class="course-button" data-course="systemlevel">System Level Programming</button>
         </div>
     </section>
+
+    <!-- About Section -->
     <section id="about" class="about-section">
-        <h2>About</h2>
-        <div class="about-boxes">
-            <div class="about-box">
-                <h3>Background</h3>
-                <p>As a first-generation college student, I faced challenges early on without a strong network. Over time, I've gained skills in programming, data science, AI, and cloud systems, growing both technically and personally. I believe my journey reflects resilience, showing how persistence and self-belief can turn obstacles into success.</p>
+        <div class="section-header">
+            <h2 class="section-title">About</h2>
+            
+            <nav class="nav-pill section-nav-pill">
+                <a href="#hero" class="nav-item">Top</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#coursework" class="nav-item">Coursework</a>
+            </nav>
+        </div>
+        
+        <div class="about-grid">
+            <div class="about-card about-card-background">
+                <h3 class="card-title">Background</h3>
+                <p>In 2026, I will graduate college with a bachelor's degree in computer science, and that means a lot to me. As a first-generation college student, I faced challenges early on without a strong network or clear guidance. Over time, I've managed to gain skills related to programming, data science, and cloud systems. Figuring things out independently has pushed me to grow both technically and personally. I've learned through coursework, hands-on projects, and real-world experience. This journey has taught me the value of persistence and adaptability. I've learned that setbacks are temporary and that consistent effort leads to progress. Continuous learning has become a core part of how I approach both my education and my work. </p>
             </div>
-            <div class="about-box">
-                <h3>Future</h3>
-                <p>I see myself building a versatile career in technology, focusing on software and data. My technical expertise and soft skills allow me to adapt quickly to new tools and environments. No matter the tech stack, I’m focused on continuous learning, solving real problems, and delivering solutions that make an impact.</p>
+            
+            <div class="about-card about-card-future">
+                <h3 class="card-title">Future</h3>
+                <p>Looking ahead, I'm focused on building a technology-driven career where I can contribute to meaningful projects and continue developing my skills. I'm drawn to roles that challenge me to think critically, solve complex problems, and work with emerging technologies. Over time, I hope to take on increasing responsibility and make a positive impact through the work I do. I'm always embracing new opportunities, growing both professionally and personally as the field evolves. Ultimately, I want to be part of building solutions that matter, and contribute to the broader tech community.</p>
             </div>
-            <div class="about-box">
-                <h3>Socials</h3>
-                <p>Connect with me on <a href="https://www.linkedin.com/in/mohamed4sharif/" target="_blank" rel="noopener noreferrer">LinkedIn</a> to network or discuss any possible opportunities. View my <a href="https://github.com/4Sharif" target="_blank" rel="noopener noreferrer">GitHub</a> to see the projects I've worked on. Follow me on <a href="https://www.tiktok.com/@4sharif" target="_blank" rel="noopener noreferrer">TikTok</a> and <a href="https://x.com/45Sharif" target="_blank" rel="noopener noreferrer">Twitter</a> to view my current interest, gain knowledge, or find advice on tech-related topics.</p>
+            
+            <div class="about-card about-card-achievements">
+                <h3 class="card-title">Achievements & Highlights</h3>
+                <ul>
+                    <li>32 ACT Score</li>
+                    <li>2x Principle List</li> 
+                    <li>2026 Software Design Project</li>
+                    <li>2020 State Farm Scholarship</li> 
+                    <li>2022 Programming Club Vice President</li> 
+                </ul>
+            </div>
+            
+            <div class="about-card about-card-interest">
+                <h3 class="card-title">Experience</h3>
+                <ul>
+                    <li>Data Analyst Intern for the District Attorney's Office of Dekalb County</li>
+                    <li>Coding Tutor for the Georgia State University Computer Science Department</li>
+                </ul>
             </div>
         </div>
-        <footer>© 2025 Mohamed Sharif</footer>
+        
+        <footer class="footer">© 2026 Mohamed Sharif</footer>
+        
+        <!-- Dark Mode Toggle (only visible in About section) -->
+        <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
     </section>
-    <script src="index.js"></script>
+
+    <!-- Course Modal -->
+    <div class="modal-backdrop" id="courseModal">
+        <div class="modal-card">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <h3 class="modal-title"></h3>
+            <p class="modal-description"></p>
+        </div>
+    </div>
+
+    <!-- Project Images Modal -->
+    <div class="modal-backdrop" id="projectModal">
+        <div class="modal-card modal-card-large">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <h3 class="modal-title"></h3>
+            <div class="modal-carousel">
+                <button class="modal-arrow modal-arrow-left" aria-label="Previous image">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="modal-image-container">
+                    <img src="" alt="" class="modal-image">
+                </div>
+                <button class="modal-arrow modal-arrow-right" aria-label="Next image">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="modal-image-dots"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
