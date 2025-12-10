@@ -307,6 +307,7 @@ body{
 .course-section h2{
     color: var(--dark-grey);
     text-align: center;
+    font-size: 2em;
 }
 
 .course-container{
@@ -355,6 +356,7 @@ body{
 .about-section h2{
     text-align: center;
     padding-bottom: 3em;
+    font-size: 2em;
 }
 
 .about-boxes{
