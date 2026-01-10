@@ -224,7 +224,7 @@ body {
   margin: 0;
 }
 
-body.dark-mode .hero-name:hover {
+body.dark-mode .hero-name {
   color: hsla(255, 81%, 45%, 1);
 }
 
@@ -349,7 +349,7 @@ body.dark-mode .soft-skills-carousel::after {
   color: var(--accent-primary);
 }
 
-body.dark-mode .section-title:hover {
+body.dark-mode .section-title {
   color: hsla(255, 81%, 45%, 1);
 }
 
@@ -405,19 +405,11 @@ body.dark-mode .section-title:hover {
   overflow-y: auto;
   padding-right: var(--space-xs);
   cursor: default;
+  scrollbar-width: none;
 }
 
 .skill-list::-webkit-scrollbar {
-  width: 4px;
-}
-
-.skill-list::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.skill-list::-webkit-scrollbar-thumb {
-  background: var(--border-default);
-  border-radius: var(--radius-pill);
+  display: none;
 }
 
 .skill-list li {
@@ -667,19 +659,11 @@ body.dark-mode .project-link:hover {
   max-height: 150px;
   overflow-y: auto;
   padding-right: var(--space-xs);
+  scrollbar-width: none;
 }
 
 .about-card ul::-webkit-scrollbar {
-  width: 4px;
-}
-
-.about-card ul::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.about-card ul::-webkit-scrollbar-thumb {
-  background: var(--border-default);
-  border-radius: var(--radius-pill);
+  display: none;
 }
 
 .about-card ul li {
@@ -1052,6 +1036,10 @@ body.dark-mode .modal-backdrop {
 
 @media screen and (max-width: 435px) {
   .nav-pill {
+    display: none;
+  }
+  
+  .hero-social-icons {
     display: none;
   }
 }
