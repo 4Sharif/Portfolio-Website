@@ -5,7 +5,7 @@
   },
   "calculus": {
     "title": "Calculus I & II",
-    "description": "Theory and applications of matrix algebra, vector spaces, and linear transformations. Topics include linear equations and matrices, invertible matrices, determinants, vector spaces, subspaces, bases, eigenvalues and eigenvectors."
+    "description": "Limits and Continuity, Differentiation, Mean Value Theorem for Derivatives; applications of differentiation; definition of the integral; Fundamental Theorem of Calculus; applications of integration to area. Applications and techniques of integration; transcendental and inverse trigonometric functions; polar coordinates; infinite sequences and series; indeterminate forms; improper integrals."
   },
   "cloud": {
     "title": "Cloud Computing",

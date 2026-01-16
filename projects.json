@@ -88,7 +88,7 @@
         "images": ["images/project-images/future.png"]
     },  
     {
-        "name": "Local Video Editor",
+        "name": "Video Editor",
         "type": "app",
         "status": "future",
         "date": "2029-01",
@@ -105,17 +105,6 @@
         "date": "2029-01",
         "tech": ["Next.js","TypeScript","FastAPI","PostgreSQL","OpenAI API"],
         "description": "A quick-capture saving tool for storing URLs, text/code snippets, documents, images, and more with keyboard shortcuts. Integrates AI to automatically generate summaries and keyword tags, enabling fast retrieval through a dashboard interface.",
-        "link": "",
-        "image": "images/project-images/future.png",
-        "images": ["images/project-images/future.png"]
-    },
-    {
-        "name": "Media Library",
-        "type": "app",
-        "status": "future",
-        "date": "2029-01",
-        "tech": ["React","TypeScript","CSS","Node.js","Azure","PostgreSQL"],
-        "description": "A personal media library for managing audio and video content. Users can upload, categorize, and share their curated collections. Will include filtering options and collaborative profile sharing features. Ideal for people that want to access their own digital media in a user-friendly way.",
         "link": "",
         "image": "images/project-images/future.png",
         "images": ["images/project-images/future.png"]
