@@ -37,11 +37,22 @@
         "type": "app",
         "status": "complete",
         "date": "2024-09",
-        "tech": ["Java","Java Swing Library", "Data Structures"],
+        "tech": ["Java","Swing Library"],
         "description": "A Java-based CRUD application for managing employee records. Built with Swing, this lightweight desktop tool allows users to add, update, delete, and search employee data. Ideal for small organizations that need a local management solution.",
         "link": "https://github.com/4Sharif/Digital-Manager", 
         "image": "images/project-images/dm1.png",
         "images": ["images/project-images/dm1.png","images/project-images/dm2.png","images/project-images/dm3.png","images/project-images/dm4.png"]
+    },
+    {
+        "name": "PDF Modifier",
+        "type": "app",
+        "status": "complete",
+        "date": "2024-09",
+        "tech": ["Python","Terminal"],
+        "description": "A terminal application for customizing PDF. Allows users to change text color, background color, font size, storing local themes, and more.",
+        "link": "https://github.com/4Sharif/PDF-Modifier", 
+        "image": "images/project-images/pdf1.png",
+        "images": ["images/project-images/pdf1.png","images/project-images/pdf2.png","images/project-images/pdf3.png"]
     },
     {
         "name": "Weather App",
