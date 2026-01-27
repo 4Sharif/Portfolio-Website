@@ -5,7 +5,7 @@
         "status": "inprogress",
         "date": "2025-03",
         "tech": ["React", "Node.js", "Firebase"],
-        "description": "A web application that allows users to write, compile, and share code seamlessly. Features include version control, user authentication, document sharing, and a compiler supporting multiple programming languages. Built for efficiency and scalability.",
+        "description": "A web application that allows users to write, compile, and share code seamlessly. Features include document sharing, user authentication, and a compiler supporting multiple programming languages. Built for efficiency and scalability.",
         "link": "https://github.com/4Sharif/Context",
         "image": "images/project-images/context.png",
         "images": ["images/project-images/context.png","images/project-images/context2.png","images/project-images/context3.png"]
@@ -15,11 +15,11 @@
         "type": "data",
         "status": "complete",
         "date": "2024-11",
-        "tech": ["Excel","Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+        "tech": ["Scikit-learn", "Pandas", "Matplotlib"],
         "description": "A data mining and machine learning project designed to predict Player Efficiency Ratings (PER) using advanced NBA statistics. Trained on multiple years of data (2014-2024), the model emphasizes predictive accuracy, feature importance analysis, and practical insights for sports analytics.",
         "link": "https://github.com/4Sharif/PER-Prediction-Model",
         "image": "images/project-images/per.png",
-        "images": ["images/project-images/per.png","images/project-images/per6.png","images/project-images/per4.png","images/project-images/per5.png","images/project-images/per3.png"]
+        "images": ["images/project-images/per.png","images/project-images/per4.png","images/project-images/per5.png","images/project-images/per6.png","images/project-images/per3.png"]
     },
     {
         "name": "Document Translator",
@@ -33,26 +33,15 @@
         "images": ["images/project-images/ppt.png","images/project-images/ppt2.png","images/project-images/ppt3.png"]
     },
     {
-        "name": "Data Management System",
+        "name": "Employee Management System",
         "type": "app",
         "status": "complete",
         "date": "2024-09",
-        "tech": ["Java","Swing Library"],
+        "tech": ["Java","Swing Library","CSV"],
         "description": "A Java-based CRUD application for managing employee records. Built with Swing, this lightweight desktop tool allows users to add, update, delete, and search employee data. Ideal for small organizations that need a local management solution.",
         "link": "https://github.com/4Sharif/Digital-Manager", 
         "image": "images/project-images/dm1.png",
         "images": ["images/project-images/dm1.png","images/project-images/dm2.png","images/project-images/dm3.png","images/project-images/dm4.png"]
-    },
-    {
-        "name": "PDF Modifier",
-        "type": "app",
-        "status": "complete",
-        "date": "2024-09",
-        "tech": ["Python","Terminal"],
-        "description": "A terminal application for customizing PDF. Allows users to change text color, background color, font size, storing local themes, and more.",
-        "link": "https://github.com/4Sharif/PDF-Modifier", 
-        "image": "images/project-images/pdf1.png",
-        "images": ["images/project-images/pdf1.png","images/project-images/pdf2.png","images/project-images/pdf3.png"]
     },
     {
         "name": "Weather App",
@@ -64,6 +53,17 @@
         "link": "https://github.com/4Sharif/Weather-App",
         "image": "images/project-images/weather.png",
         "images": ["images/project-images/weather.png","images/project-images/weather2.png"]
+    },
+    {
+        "name": "PDF Modifier",
+        "type": "app",
+        "status": "complete",
+        "date": "2024-09",
+        "tech": ["PyMuPDF","JSON","Command-Line"],
+        "description": "A terminal application for customizing PDF. Allows users to change text color, background color, font size, storing local themes, and more.",
+        "link": "https://github.com/4Sharif/PDF-Modifier", 
+        "image": "images/project-images/pdf1.png",
+        "images": ["images/project-images/pdf1.png","images/project-images/pdf2.png","images/project-images/pdf3.png"]
     },
     {
         "name": "Gardening Blog Website",
@@ -92,7 +92,7 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["React","FastAPI","PostgreSQL","pgvector","Embeddings"],
+        "tech": ["React","FastAPI","PostgreSQL"],
         "description": "A preference-based recommendation web app where users can enter any number of liked and disliked movies to generate a ranked list of personalized recommendations. Uses content embeddings and vector search to match users with similar titles, with room to expand beyond movies into shows, books, and games.",
         "link": "",
         "image": "images/project-images/future.png",
@@ -114,7 +114,7 @@
         "type": "app",
         "status": "future",
         "date": "2029-01",
-        "tech": ["Next.js","TypeScript","FastAPI","PostgreSQL","OpenAI API"],
+        "tech": ["Next.js","TypeScript","FastAPI","PostgreSQL","Ollama API"],
         "description": "A quick-capture saving tool for storing URLs, text/code snippets, documents, images, and more with keyboard shortcuts. Integrates AI to automatically generate summaries and keyword tags, enabling fast retrieval through a dashboard interface.",
         "link": "",
         "image": "images/project-images/future.png",
