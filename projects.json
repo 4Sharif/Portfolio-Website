@@ -5,7 +5,7 @@
         "status": "inprogress",
         "date": "2025-03",
         "tech": ["React", "Node.js", "Firebase"],
-        "description": "A web application that allows users to write, compile, and share code seamlessly. Features include document sharing, user authentication, and a compiler supporting multiple programming languages. Built for efficiency and scalability.",
+        "description": "A web application that allows users to write, compile, and share code seamlessly. Features include document sharing, user authentication, and compiler support. Ideal for developers that want a simplified programming environment.",
         "link": "https://github.com/4Sharif/Context",
         "image": "images/project-images/context.png",
         "images": ["images/project-images/context.png","images/project-images/context2.png","images/project-images/context3.png"]
@@ -16,7 +16,7 @@
         "status": "complete",
         "date": "2024-11",
         "tech": ["Scikit-learn", "Pandas", "Matplotlib"],
-        "description": "A data mining and machine learning project designed to predict Player Efficiency Ratings (PER) using advanced NBA statistics. Trained on multiple years of data (2014-2024), the model emphasizes predictive accuracy, feature importance analysis, and practical insights for sports analytics.",
+        "description": "A data mining and machine learning project designed to estimate Player Efficiency Ratings (PER) using advanced NBA statistics. Trained on multiple years of data (2014-2024), the model emphasizes predictive accuracy, feature importance analysis, and practical insights for sports analytics.",
         "link": "https://github.com/4Sharif/PER-Prediction-Model",
         "image": "images/project-images/per.png",
         "images": ["images/project-images/per.png","images/project-images/per4.png","images/project-images/per5.png","images/project-images/per6.png","images/project-images/per3.png"]
@@ -27,7 +27,7 @@
         "status": "future",
         "date": "2029-01",
         "tech": ["Python","Supabase","Google Cloud Translate API"],
-        "description": "A web application that translates documents from one language to another using an AI-Powered translation model. It allows users to upload documents and translate them into their desired language. It also allows users to save their translations and view them later.",
+        "description": "A system that translates documents from one language to another using AI-Powered translation while preserving the original layout. Allows users to upload documents and translate them into their desired language. Customizable dashboard allows for quickly viewing the output before downloading.",
         "link": "",
         "image": "images/project-images/ppt.png",
         "images": ["images/project-images/ppt.png","images/project-images/ppt2.png","images/project-images/ppt3.png"]
@@ -60,7 +60,7 @@
         "status": "complete",
         "date": "2024-09",
         "tech": ["PyMuPDF","JSON","Command-Line"],
-        "description": "A terminal application for customizing PDF. Allows users to change text color, background color, font size, storing local themes, and more.",
+        "description": "A terminal application for customizing PDF. Allows users to change text color, background color, font size, storing local themes, and more. Features a functional, looping CLI menu.",
         "link": "https://github.com/4Sharif/PDF-Modifier", 
         "image": "images/project-images/pdf1.png",
         "images": ["images/project-images/pdf1.png","images/project-images/pdf2.png","images/project-images/pdf3.png"]
